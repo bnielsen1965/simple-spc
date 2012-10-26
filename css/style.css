@@ -1,0 +1,283 @@
+html, body {
+	margin: 0;
+	padding: 5px;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+.login_box {
+	border: 1px solid #BCE;
+	border-radius: 5px;
+	width: 25em;
+	height: 10em;
+	text-align: center;
+	padding: 1em 2em;
+	margin: 10em auto 10em auto;
+	background-image: url(images/grad-vert-400-grey.png);
+	background-repeat: repeat-x;
+	box-shadow: 4px 4px 4px #88A;
+}
+
+.login_box form {
+	text-align: left;
+}
+
+.login_box form table {
+	text-shadow: 0.1em 0.1em #DDD;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.login_box th {
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
+.login_box form input {
+	width: 100%;
+}
+
+
+
+div.menu {
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #BCE;
+	background-image: url(images/grad-vert-400-grey.png);
+	background-repeat: repeat-x;
+	box-shadow: 4px 4px 4px #88A;
+	margin-bottom: 10px;
+	padding: 0;
+}
+
+.menu a {
+	text-shadow: 0.1em 0.1em #DDD;
+	font-weight: bold;
+	color:#000;
+	text-decoration: none;
+}
+
+.menu ul {
+	list-style: none;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+.menu li {
+	float: left;
+	padding: 3px;
+	margin: 0 3px;
+}
+
+.menu li:hover {
+	background-color: #EEEEEE;
+}
+
+
+
+#content {
+	overflow: auto;
+	border: 1px solid #AAA;
+	padding: 0;
+	float: left;
+	clear: left;
+	width: 100%;
+	font-size: 12px;
+}
+
+#content form {
+	overflow: auto;
+}
+
+#content table {
+	font-size: 12px;
+}
+
+
+
+.helptip {
+	position: relative;
+	top: 3px;
+	font-family: "Helvetica", Helvetica, sans-serif;
+	color: #000;
+}
+
+.helptip span {
+	position: absolute;
+	margin-left: -999em;
+	background-color: #DFF;
+	border: 1px solid #BCE;
+	border-radius: 5px;
+	width: 180px;
+	padding: 8px;
+}
+
+.helptip:hover span {
+	margin-left: 0;
+	position: absolute;
+	left: 1em;
+	top: 0.8em;
+	z-index: 999;
+}
+
+
+
+
+
+#rule_list ul {
+	list-style: none;
+	float: left;
+}
+
+#rule_list ul li {
+	float: left;
+	clear: left;
+}
+
+#rule_list ul li.even {
+	background-color: #DDD;
+}
+
+#rule_list ul li.odd {
+	background-color: #DDF;
+}
+
+#rule_list ul li.odd:hover, #user_list ul li.even:hover {
+	background-color: #EEE;
+}
+
+#rule_list label {
+	float: left;
+	width: 14em;
+}
+
+
+
+
+
+
+
+
+
+
+.box {
+	position: relative;
+	float: left;
+	width: 20em;
+}
+
+
+
+
+
+
+.box {
+	position: relative;
+	float: left;
+	width: 20em;
+}
+
+.updating {
+	background-color: #FFF1D8;
+}
+
+
+
+
+#paged_list ul {
+	list-style: none;
+	float: left;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+#paged_list ul li {
+	float: left;
+	clear: left;
+	width: 100%;
+}
+
+#paged_list ul li.even {
+	background-color: #DDD;
+}
+
+#paged_list ul li.odd {
+	background-color: #DDF;
+}
+
+#paged_list ul li.odd:hover, #paged_list ul li.even:hover {
+	background-color: #EEE;
+}
+
+#paged_list label {
+	float: left;
+	width: 14em;
+}
+
+.pagination_controls {
+	padding: 3px 0;
+	text-align: right;
+	width: 100%;
+}
+
+.pagination_controls a {
+	color: #000;
+	text-decoration: none;
+}
+
+.pagination_controls a:hover {
+	color: #00F;
+	text-decoration: underline;
+}
+
+.paged_item {
+	padding: 3px;
+}
+
+.paged_item a {
+	color: #008;
+	text-decoration: none;
+}
+
+.paged_item a:hover {
+	color: #66F;
+}
+
+
+
+#footer {
+	border: 1px solid #BCE;
+	text-align: center;
+	padding: 5px 0;
+	margin: 10px auto;
+	background-image: url(images/grad-vert-400-grey.png);
+	background-repeat: repeat-x;
+	box-shadow: 4px 4px 4px #88A;
+	color: #000;
+	float: left;
+	width: 100%;
+	text-shadow: 0.1em 0.1em #DDD;
+}
+
+
+
+.welcome {
+	font-weight: bolder;
+	text-shadow: 0.1em 0.1em #DDD;
+}
+
+.large_title {
+	font-size: 1.5em;
+	font-weight: bolder;
+	text-shadow: 0.1em 0.1em #DDD;
+}
+
+
+
+.demo_message {
+	font-weight: bolder;
+	color: red;
+}

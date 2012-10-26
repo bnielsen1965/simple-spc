@@ -1,0 +1,15 @@
+<?php
+/*
+ * This should be included after the configuration and before any content
+ *
+ * NOTE: we are assuming the $user variable already contains a User object
+ */
+
+// check to see if user is authenticated
+if( !$user->isAdmin() ) {
+  // redirect to user login
+  header('Location:' . LOGIN_URL);
+  exit();
+}
+
+?>
