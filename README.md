@@ -28,6 +28,22 @@ Not yet implemented. The technician user will have the ability to remove or edit
 The engineer users can create new metrics and assign SPC rules to metrics.
 
 
+
+# Rules
+
+There are currently 8 supported Western Electric rules:
+
+* WE1 = Any single data point falls outside the 3σ limit
+* WE2 = Two out of three consecutive points fall beyond the 2σ limit on the same side of the centerline
+* WE3 = Four out of five consecutive points fall outside 1 sigma on the same side of the centerline
+* WE4 = Eight consecutive points fall on the same side of the centerline
+* WE5 = Six points in a row increasing or decreasing
+* WE6 = Fifteen points in a row within one sigma limits
+* WE7 = Fourteen points in a row alternating in direction
+* WE8 = Eight points in a row outside one sigma limits
+
+
+
 # Demo site
 
 A running demo of the application can be viewed at http://www.xorengineering.com/code/sspc/
