@@ -28,3 +28,6 @@ Not yet implemented. The technician user will have the ability to remove or edit
 The engineer users can create new metrics and assign SPC rules to metrics.
 
 
+# Demo site
+
+A running demo of the application can be viewed at http://www.xorengineering.com/code/sspc/
