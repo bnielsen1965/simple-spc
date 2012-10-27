@@ -21,6 +21,9 @@ define('SITE_URL', 'http://192.168.122.243/sspc/');
 define('LOGIN_URL', SITE_URL . 'index.php');
 
 
+date_default_timezone_set(@ date_default_timezone_get());
+
+
 // site paths
 define('ROOT_PATH', dirname(__FILE__) . '/');
 define('CLASS_PATH', ROOT_PATH . 'classes/');
