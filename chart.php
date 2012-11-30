@@ -25,9 +25,14 @@ include HEADERS . 'operator_header.php';
 // metric object needed for the metric selection form
 $metric = new Metric;
 
+header('Content-Type: text/html; charset=utf-8');
+
 ?>
+<!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 
 <title>Charts</title>

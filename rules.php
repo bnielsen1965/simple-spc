@@ -156,9 +156,14 @@ if( isset($_REQUEST['action']) ) {
 	exit();
 }
 
+header('Content-Type: text/html; charset=utf-8');
+
 ?>
+<!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 
 <title>Rules</title>

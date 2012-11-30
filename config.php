@@ -48,7 +48,7 @@ DEFINE('ACL_TECHNICIAN_MASK', 8);
 DEFINE('ACL_ENGINEER_MASK', 16);
 
 // start session
-session_name('optimize_my_site');
+session_name('sspc');
 session_start();
 
 ?>
