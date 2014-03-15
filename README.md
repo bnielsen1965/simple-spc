@@ -46,4 +46,4 @@ There are currently 8 supported Western Electric rules:
 
 # Demo site
 
-A running demo of the application can be viewed at http://www.getwebscripts.com/demos/sspc/
+A running demo of the application can be viewed at http://www.getwebscripts.com/demos/sspc/index.php
